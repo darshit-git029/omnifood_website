@@ -1,0 +1,1375 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: "Rubik", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fdf2e9;
+    height: 9.5vh;
+    padding: 0 3.3rem;
+    position: relative;
+    overflow: hidden;
+}
+
+#header-nav.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1;
+    padding: 0rem;
+}
+
+#header-nav.sticky .main-nav-list {
+    background-color: #fff;
+    padding-bottom: 19px;
+    padding-top: 20px;
+}
+
+.main-nav {
+    margin-top: -3rem;
+}
+
+#header-nav.sticky .logo {
+    margin-bottom: 0.5rem;
+}
+
+.logo-image {
+    padding-top: 32px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -4rem;
+    margin-left: 3rem;
+    padding-bottom: -10px;
+    max-width: 100%;
+}
+
+.logo {
+    height: 2rem;
+    font-size: large;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 49px;
+    margin: 14px 0px;
+    margin-top: 0px;
+    margin-bottom: -1rem;
+    padding: 2.1rem 3rem 1.6rem;
+    justify-content: flex-end;
+    background-color: #fdf2e9;
+    font-family: "rubik";
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    font-size: 17.77px;
+    transition: all 0.5s;
+    padding: 0rem 0rem;
+    font-weight: 500;
+    margin: auto;
+}
+
+*:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.5rem rgba(230, 125, 34, 0.6);
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+    color: #cf711f;
+    transition: all 0.2s;
+}
+
+.main-nav-link.nav-try:link,
+.main-nav-link.nav-try:active {
+    background-color: #cf711f;
+}
+
+.main-nav-link.nav-try:link,
+.main-nav-link.nav-try:visited {
+    padding: 0.5rem 1.5rem;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #e67e22;
+}
+
+.main-nav-link.nav-try:hover,
+.main-nav-link.nav-try:active {
+    background-color: #cf711f;
+}
+
+.btn-mobile-nav {
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: none;
+    float: right;
+    margin-right: 0rem;
+    margin-top: 1rem;
+    padding-right: 0rem;
+}
+
+.icon-mobile-nav {
+    height: 3rem;
+    width: 3rem;
+    color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+    display: none;
+}
+
+.section-homepage {
+    background-color: #fdf2e9;
+    padding: 4rem 0;
+}
+
+.home {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0px 3.99rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+    align-items: center;
+    font-family: "rubik";
+    overflow: hidden;
+}
+
+.heading-primary {
+    font-size: 2.7rem;
+    font-weight: 700;
+    letter-spacing: 0px;
+    word-spacing: -0.2px;
+    line-height: 47px;
+    color: #333;
+    font-family: "rubik";
+    margin-top: 0px;
+    margin-bottom: 3rem;
+}
+
+.home .home-description {
+    display: block;
+    margin-top: -1rem;
+    margin-bottom: 3rem;
+    line-height: 1.65;
+    letter-spacing: 0.1;
+    word-spacing: 0px;
+    margin-right: 1rem;
+    font-weight: 400;
+    font-size: 1.21rem;
+    color: rgb(85, 85, 85);
+}
+
+h1 {
+    display: block;
+    font-size: 2rem;
+    margin-block-start: 0.67rem;
+    margin-block-end: 0.67rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-block-start: 2rem;
+    margin-block-end: 2rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    letter-spacing: 0.5px;
+    line-height: 1.8;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.home-img {
+    width: 100%;
+}
+
+section {
+    display: block;
+}
+
+.btn-start-eating:link,
+.btn-start-eating:visited {
+    background-color: #e67e22;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 10px 30px;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    transition: 0.3s;
+    font-weight: 500;
+    font-family: "rubik";
+}
+
+.btn-learn-more:link,
+.btn-learn-more:visited {
+    background-color: #fff;
+    color: #555;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 10px 30px;
+    border-radius: 9px;
+    border: 2px white;
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.3s;
+    font-weight: 550;
+    margin-inline-start: 15px;
+}
+
+.btn-start-eating:hover,
+.btn-start-eating:active {
+    background-color: #cf711f;
+    color: #fff;
+}
+
+.btn-learn-more:hover,
+.btn-learn-more:active {
+    background-color: #fdf2e9;
+    color: #555;
+    box-shadow: inset 0 0 0 3px #fff;
+}
+
+.delivered-meals {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    margin-top: 5rem;
+    height: 50PX;
+}
+
+.delivered-imgs {
+    display: flex;
+}
+
+.delivered-imgs img {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    margin-right: -1rem;
+    border: 3px solid #fdf2e9;
+}
+
+.delivered-text {
+    font-size: - 1rem;
+    font-weight: 500;
+    display: block;
+    margin-block-start: 2em;
+    margin-block-end: 2em;
+    margin-inline-start: 4px;
+    margin-inline-end: 2px;
+    letter-spacing: -0.5px;
+    line-height: 1;
+    color: #333;
+}
+
+.delivered-text span {
+    color: #cf711f;
+    font-weight: 700;
+}
+
+/*section featured*/
+.section-featured {
+    padding: 7.5rem 0 0rem 0;
+}
+
+.container {
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.heading-featured-in {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 1.9rem;
+    color: #888;
+    font-family: "rubik";
+}
+
+.logo-featured {
+    display: flex;
+    justify-content: space-around;
+    filter: brightness(0%);
+    opacity: 50%;
+    height: 2rem;
+    margin-bottom: 5px;
+}
+
+/*section how it work*/
+.how {
+    padding: 10rem 0rem 0rem;
+}
+
+.container {
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 0 0rem 0;
+}
+
+.how-it-work {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #cf711f;
+    display: block;
+    margin-bottom: 1rem;
+    line-height: 0.75;
+    font-family: "rubik";
+}
+
+.healthy-setp {
+    font-size: 2.9rem;
+    line-height: 0.79;
+    margin-bottom: 6.6rem;
+    font-weight: 700;
+    font-family: "rubik";
+}
+
+/*steps*/
+.container {
+    max-width: 120rem;
+    padding: 0 3.3rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.grid--2-cols {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-iphone {
+    display: grid;
+    column-gap: 4.4rem;
+    row-gap: 5.5rem;
+}
+
+.step1-number {
+    font-size: 5.5rem;
+    font-weight: 700;
+    color: #dddddd;
+    margin-bottom: 0rem;
+    font-family: "rubik";
+}
+
+.step1-heading {
+    font-size: 1.9rem;
+    line-height: 1.1;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    margin-top: 0rem;
+    font-family: "rubik";
+}
+
+.step1-decription {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.8;
+    font-family: "rubik";
+    color: rgb(85, 85, 85);
+}
+
+.step1-img {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.step-img {
+    width: 35%;
+}
+
+.step1-img::before {
+    width: 60%;
+    padding-bottom: 60%;
+    background-color: #fdf2e9;
+    z-index: -2;
+}
+
+.step1-img::before,
+.step1-img::after {
+    content: "";
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.step1-img::after {
+    width: 45%;
+    padding-bottom: 45%;
+    background-color: #fae5d3;
+    z-index: -1;
+}
+
+.step2-img {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.step2-img::before {
+    width: 60%;
+    padding-bottom: 60%;
+    background-color: #fdf2e9;
+    z-index: -2;
+}
+
+.step2-img::before,
+.step2-img::after {
+    content: "";
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.step2-img::after {
+    width: 45%;
+    padding-bottom: 45%;
+    background-color: #fae5d3;
+    z-index: -1;
+}
+
+.step2-number {
+    font-size: 5.5rem;
+    font-weight: 700;
+    color: #dddddd;
+    margin-bottom: 0rem;
+    font-family: "rubik";
+}
+
+.step2-heading {
+    font-size: 1.9rem;
+    line-height: 1.1;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    margin-top: 0rem;
+    font-family: "rubik";
+}
+
+.step2-decription {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.8;
+    color: rgb(85, 85, 85);
+    font-family: "rubik";
+}
+
+.step3-number {
+    font-size: 5.5rem;
+    font-weight: 700;
+    color: #dddddd;
+    margin-bottom: 0%;
+    font-family: "rubik";
+}
+
+.step3-heading {
+    font-size: 1.9rem;
+    line-height: 1.1;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    margin-top: 0rem;
+    font-family: "rubik";
+}
+
+.step3-decription {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.8;
+    font-family: "rubik";
+    color: rgb(85, 85, 85);
+}
+
+.step3-img {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.step-img {
+    width: 35%;
+}
+
+.step3-img::before {
+    width: 60%;
+    padding-bottom: 60%;
+    background-color: #fdf2e9;
+    z-index: -2;
+}
+
+.step3-img::before,
+.step3-img::after {
+    content: "";
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.step3-img::after {
+    width: 45%;
+    padding-bottom: 45%;
+    background-color: #fae5d3;
+    z-index: -1;
+}
+
+/*Meal*/
+.section-meal {
+    padding: 9.9rem 0rem 3rem 0rem;
+}
+
+.container {
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.section-meal-subheading {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgb(207, 113, 31);
+    margin-bottom: 1.6rem;
+    letter-spacing: 0.75px;
+    font-family: "rubik";
+}
+
+.section-meal-mainheading {
+    font-size: 2.7rem;
+    line-height: 1.6;
+    margin-bottom: 5.6rem;
+    font-weight: 700;
+    margin-top: -20px;
+    font-family: "rubik";
+}
+
+.container {
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+}
+
+.margin-bottom-md {
+    margin-bottom: 4.8rem !important;
+}
+
+.grid--3-cols {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid {
+    display: grid;
+    column-gap: 4rem;
+    row-gap: 9.6rem;
+}
+
+.meal-img {
+    width: 100%;
+}
+
+.meal-content {
+    padding: 3.2rem 2.8rem 0.8rem;
+}
+
+.meal-tags {
+    margin-bottom: 1.2rem;
+    display: flex;
+    gap: 0.4rem;
+}
+
+.tag--vegetarian {
+    background-color: rgb(52, 216, 52);
+    font-family: "rubik";
+}
+
+.tag {
+    display: inline-block;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: rgb(51, 51, 51);
+    font-weight: 600;
+    padding: 0.2rem 0.8rem;
+    border-radius: 100px;
+    font-family: "rubik";
+}
+
+.meal-title {
+    font-size: 1.4rem;
+    line-height: 1;
+    margin-top: 0rem;
+    color: rgb(51, 51, 51);
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+    font-family: "rubik";
+}
+
+.meal-attributes {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    font-size: large;
+    padding-left: 0rem;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+.meal-attribute {
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    font-family: "rubik";
+    font-size: large;
+    padding-left: 0rem;
+    color: rgb(85, 85, 85);
+}
+
+.list-icon {
+    width: 1.8rem;
+    height: 1.8rem;
+    color: #e67e22;
+}
+
+.meal-icon {
+    width: 1.4rem;
+    height: 1.4rem;
+    color: #e67e22;
+}
+
+.meal {
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.085);
+    border-radius: 11px;
+    overflow: hidden;
+    transition: all 0.4s;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.meal:hover {
+    transform: translateY(-10px);
+}
+
+.meal1 {
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.085);
+    border-radius: 11px;
+    overflow: hidden;
+    transition: all 0.4s;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.meal1:hover {
+    transform: translateY(-10px);
+}
+
+.diet {
+    margin-top: 1.5rem;
+}
+
+.meal1-img {
+    width: 100%;
+}
+
+.meal1-content {
+    padding: 3.2rem 2.8rem 0.8rem;
+}
+
+.meal1-tags {
+    margin-bottom: 1.2rem;
+    display: flex;
+    gap: 0.4rem;
+}
+
+.tag--vegan {
+    background-color: #94d82d;
+    font-family: "rubik";
+}
+
+.tag--paleo {
+    background-color: #ffd43b;
+    font-family: "rubik";
+}
+
+.heading-diet {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 2rem;
+    font-family: "rubik";
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    padding-left: 0rem;
+}
+
+.list-item {
+    font-size: 1.19rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    line-height: 1;
+    font-family: "rubik";
+    color: rgb(85, 85, 85);
+}
+
+.all-recipes {
+    font-size: 1.1rem;
+    margin-top: -3rem;
+    text-align: center;
+    align-items: center;
+    font-family: "rubik";
+}
+
+.link:hover,
+.link:active {
+    text-decoration: none;
+    transition: all 0.3s;
+
+}
+
+.link:link,
+.link:visited {
+    display: inline-block;
+    color: #ee8428;
+    padding-bottom: 2px;
+    transition: all 0.5s;
+}
+
+/*Testimonial*/
+.section-testimonials {
+    background-color: #fdf2e9;
+    display: grid;
+    grid-template-columns: 55fr 45fr;
+    align-items: center;
+    font-family: "rubik";
+    color: #333;
+}
+
+.testimonials {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 4rem;
+    column-gap: 6rem;
+}
+
+.testimonials-container {
+    padding: 9.6rem 5.8rem;
+}
+
+.testimonial-heading {
+    font-family: "rubik";
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #cf711f;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+    letter-spacing: 0.75px;
+}
+
+.testimonial-secondaryheading {
+    font-size: 2.7rem;
+    font-family: "rubik";
+    margin-top: -0.9rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 7rem;
+}
+
+.testimonial-img {
+    width: 4.4rem;
+    border-radius: 50%;
+    margin-bottom: 1.2rem;
+    flex-wrap: wrap;
+}
+
+.testimonial-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: -1rem;
+    word-spacing: 1px;
+    color: rgb(85, 85, 85);
+}
+
+.testimonial-name {
+    font-size: 1rem;
+    color: #6f6f6f;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+}
+
+.gallery {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.gallery {
+    display: grid;
+    gap: 1.3rem;
+    padding: 1.2rem;
+}
+
+.gallery-item img {
+    display: block;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+.gallery-item {
+    overflow: hidden;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.1);
+}
+
+/*PRICE*/
+
+.price {
+    padding: 9.6rem 0 3.6rem 0rem;
+}
+
+.container {
+    max-width: 120rem;
+    padding: 0 3rem;
+    margin: 0px auto;
+}
+
+.heading-price {
+    font-family: "rubik";
+    font-size: 1rem;
+    color: #cf711f;
+    font-weight: bold;
+}
+
+.heading-text {
+    font-size: 2.7rem;
+    font-family: "rubik";
+    font-weight: 700;
+    margin-bottom: 9.5rem;
+}
+
+.margin-bottom-md {
+    margin-bottom: 2.8rem !important;
+}
+
+.grid--2-cols {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid {
+    display: grid;
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+}
+
+.container-price {
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 0 0 0;
+}
+
+.pricing-plan--starter {
+    justify-self: end;
+    border: 2px solid #fdf2e9;
+    padding: 3.5rem;
+}
+
+.pricing-plan {
+    border-radius: 11px;
+    width: 75%;
+}
+
+.plan-starter {
+    text-align: center;
+    margin-bottom: 2.8rem;
+    margin-top: -2.8rem;
+}
+
+.plan-name {
+    color: #cf711f;
+    font-weight: 600;
+    font-family: "rubik";
+    font-size: 1.3rem;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.75;
+    margin-bottom: 0rem;
+}
+
+.plan-price span {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-right: -0.2rem;
+}
+
+.plan-price {
+    font-size: 3.8rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: -0.4rem;
+    font-family: "rubik";
+    margin-top: 0rem;
+    letter-spacing: 0;
+}
+
+.plan-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: rgb(85, 85, 85);
+    margin-top: 0rem;
+    font-family: "rubik";
+    letter-spacing: 0;
+}
+
+.list-1 {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    padding-left: 0rem;
+}
+
+.list-item-1 {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;
+    line-height: 0;
+    color: rgb(85, 85, 85);
+}
+
+.price-sing-up {
+    text-align: center;
+    margin-top: 3.5rem;
+}
+
+.pricing-plan--complete-1 {
+    border: 2px solid #fdf2e9;
+    padding: 2rem;
+    background-color: #fdf2e9;
+    position: relative;
+    overflow: hidden;
+}
+
+.pricing-plan--complete-1::after {
+    content: "Best value";
+    position: absolute;
+    top: 6%;
+    right: -32%;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    background-color: #ffd43b;
+    padding: 0.2rem 8rem;
+    transform: rotate(45deg);
+}
+
+.pricing-plan--complete-1 {
+    border-radius: 11px;
+    width: 75%;
+}
+
+.plan-starter-complete {
+    text-align: center;
+    margin-bottom: 2.8rem;
+    margin-top: -25px;
+}
+
+.grid-info {
+    margin-top: 0rem;
+    margin-bottom: 9.6rem;
+}
+
+.plan-details {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: center;
+    color: rgb(85, 85, 85);
+    margin-top: 4rem;
+}
+
+/*4 grid section*/
+.grid--4-cols {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.feature-icon {
+    color: #e67e22;
+    height: 2.2rem;
+    width: 2.2rem;
+    background-color: #fdf2e9;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 50%;
+    flex-wrap: wrap;
+}
+
+.feature-title {
+    font-size: 1.4rem;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    margin-top: 0rem;
+    font-family: "rubik";
+    letter-spacing: 0;
+}
+
+.feature-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    font-family: "rubik";
+    margin-top: 0rem;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+}
+
+/*TRY FOR FREE*/
+.section-try-for-free {
+    padding: 9.9rem 0 1.8rem;
+}
+
+.try {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+    border-radius: 11px;
+    background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+    overflow: hidden;
+}
+
+.try-text-box {
+    padding: 2.8rem 3.4rem 3.8rem 3.4rem;
+    color: #45260a;
+}
+
+.try .heading-secondary {
+    color: inherit;
+    margin-bottom: 2.2rem;
+}
+
+.heading-secondary {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 9.6rem;
+    font-weight: bold;
+    font-family: "rubik";
+}
+
+.try-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-top: -0.9rem;
+    margin-bottom: 2.2rem;
+    letter-spacing: 0;
+    word-spacing: 0;
+    font-family: "rubik";
+}
+
+.try-form label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.try-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3.2rem;
+    row-gap: 2.4rem;
+    margin-bottom: 0rem;
+    font-family: "rubik";
+}
+
+.try-form input,
+.try-form select {
+    width: 100%;
+    padding: 0.7rem;
+    font-size: 1.1rem;
+    font-family: inherit;
+    color: inherit;
+    border: none;
+    background-color: #fdf2e9;
+    border-radius: 9px;
+    box-shadow: 0 1px 2px rgb(0, 0, 0);
+}
+
+.btn--sign-in:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.btn--sign-in:active {
+    background-color: #ffbf00;
+}
+
+.btn--sign-in {
+    background-color: #45260a;
+    color: #fdf2e9;
+    align-self: end;
+    padding: 0.6rem;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.try-img-box {
+    background-image: linear-gradient(to right bottom, rgba(235, 151, 78, 0.35), rgba(230, 125, 34, 0.35)), url(img/eating.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+option {
+    background-color: #fae5d3;
+}
+
+select {
+    background-color: #dddddd;
+}
+
+/*footer*/
+.footer {
+    padding: 9.8rem 0px 8.5rem;
+    border-top: 1px solid #fff;
+}
+
+.grid--footer {
+    grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.grid {
+    display: grid;
+    column-gap: 4rem;
+    row-gap: 9.6rem;
+}
+
+.container-footer {
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: auto;
+}
+
+.logo-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo {
+    display: block;
+    margin-bottom: 2.2rem;
+}
+
+.logo {
+    height: 1.37rem;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    padding-left: 0px;
+    padding-block-start: 0px;
+    margin-bottom: 3rem;
+    margin-inline-start: 0px;
+    justify-content: flex-start;
+    align-items: baseline;
+    font-size: 23px;
+}
+
+.footer-link:link.footer-link:visited {
+    font-size: 2.1rem;
+    color: #767676;
+    transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+    color: #555;
+}
+
+.social-icon {
+    width: 1.99rem;
+    height: 1.99rem;
+    margin-inline-start: -6.6px;
+    padding-block-start: 3px;
+    padding-block-end: 3px;
+    margin-inline-end: -15px;
+    color: #555;
+}
+
+.copyright {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: -0.6px;
+    word-spacing: 0.9px;
+    font-family: "rubik";
+    color: rgb(85, 85, 85);
+}
+
+.footer-heading {
+    font-size: 1.2rem;
+    margin-top: -0.5rem;
+    font-weight: 500;
+    margin-bottom: 4rem;
+    color: #555;
+    font-family: "rubik";
+}
+
+.address {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 0rem;
+    margin-top: -2rem;
+    font-weight: 400;
+    letter-spacing: -0px;
+    margin-inline-end: 0px;
+    color: #555;
+    word-spacing: 0px;
+    font-family: "rubik";
+}
+
+.contacts {
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    font-family: "rubik";
+}
+
+.footer-link:link,
+.footer-link:visited {
+    font-size: 1rem;
+    color: #767676;
+    transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+    color: #555;
+}
+
+.mob {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 0.8px;
+    padding-top: 25px;
+    font-family: "rubik";
+}
+
+.footer-link {
+    font-size: 0.9;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.footer-account {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1.3rem;
+    margin-top: -0.5rem;
+    color: #555;
+    font-family: "rubik";
+}
+
+.footer-nav1 {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0rem;
+    font-weight: 400;
+    color: #555;
+    margin-inline-end: -6px;
+    font-family: "rubik";
+}
+
+.footer-nav1:hover,
+.footer-nav1:active {
+    color: #555;
+}
+
+.footer-nav1:link,
+.footer-nav1:visited {
+    font-size: 1rem;
+    color: rgb(85, 85, 85);
+    transition: all 0.3s;
+}
+
+.footer-list {
+    color: rgb(85, 85, 85);
+    text-decoration: none;
+    font-family: "rubik";
+}
+
+.footer-Company {
+    margin-top: -0.5rem;
+    margin-bottom: 1.3rem;
+    font-size: 1.2rem;
+    color: #555;
+    font-weight: 600;
+    font-family: "rubik";
+}
+
+.footer-resources {
+    margin-top: -0.5rem;
+    margin-bottom: 1.3rem;
+    font-size: 1.2rem;
+    color: #555;
+    font-weight: 600;
+    font-family: "rubik";
+}

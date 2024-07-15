@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en" class="hydrated">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/favicon.png">
+  <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+  <title>Omnifood</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="media.css">
+</head>
+
+<body>
+  <header id="header-nav">
+    <div class="logo-image">
+      <a href="#">
+        <img class="logo" alt="Omnifood logo" src="img/omnifood-logo.png">
+      </a>
+    </div>
+    <nav id="main-nav">
+      <ul class="main-nav-list">
+        <li>
+          <a class="main-nav-link" href="#how">How it works</a>
+        </li>
+        <li>
+          <a class="main-nav-link" href="#meal">Meals</a>
+        </li>
+        <li>
+          <a class="main-nav-link" href="#testimonial">Testimonials</a>
+        </li>
+        <li>
+          <a class="main-nav-link" href="#price">Pricing</a>
+        </li>
+        <li>
+          <a class="main-nav-link nav-try" href="#try-for-free">Try for free</a>
+        </li>
+      </ul>
+    </nav>
+    <button class="btn-mobile-nav">
+      <ion-icon class="icon-mobile-nav md hydrated" name="menu-outline" role="img" aria-label="menu outline">
+        <div class="icon-inner"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon s-ion-icon"
+            viewBox="0 0 512 512">
+            <title>Menu</title>
+            <path stroke-linecap="round" stroke-miterlimit="10" d="M80 160h352M80 256h352M80 352h352"
+              class="ionicon-fill-none ionicon-stroke-width"></path>
+          </svg></div>
+      </ion-icon>
+      <ion-icon class="icon-mobile-nav md hydrated" name="close-outline" role="img" aria-label="close outline">
+        <div class="icon-inner"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon s-ion-icon"
+            viewBox="0 0 512 512">
+            <title>Close</title>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M368 368L144 144M368 144L144 368"
+              class="ionicon-fill-none ionicon-stroke-width"></path>
+          </svg></div>
+      </ion-icon>
+    </button>
+  </header>
+  <main>
+    <section class="section-homepage">
+      <div class="home">
+        <div class="home-text-box">
+          <h1 class="heading-primary">
+            A healthy meal delivered to your door, every single day
+          </h1>
+          <p class="home-description">
+            The smart 365-days-per-year food subscription that will make you eat healthy again. Tailored to your
+            personal
+            tastes and nutritional needs.
+          </p>
+
+          <a href="#" class="btn btn-start-eating">Start eating well</a>
+
+          <a href="#how" class="btn btn-learn-more">Learn more &darr;</a>
+
+          <div class="delivered-meals">
+            <div class="delivered-imgs">
+              <img src="img/customers/customer-1.jpg" alt="Customer photo" />
+              <img src="img/customers/customer-2.jpg" alt="Customer photo" />
+              <img src="img/customers/customer-3.jpg" alt="Customer photo" />
+              <img src="img/customers/customer-4.jpg" alt="Customer photo" />
+              <img src="img/customers/customer-5.jpg" alt="Customer photo" />
+              <img src="img/customers/customer-6.jpg" alt="Customer photo" />
+            </div>
+            <p class="delivered-text">
+              <span>250,000+</span> meals delivered last year!
+            </p>
+          </div>
+        </div>
+        <div class="home-img-box">
+          <img src="img/home-page-image.png" class="home-img"
+            alt="Woman enjoying food, meals in storage container, and food bowls on a table" />
+        </div>
+      </div>
+    </section>
+    <section class="section-featured">
+      <div class="container">
+        <h2 class="heading-featured-in">As featured in</h2>
+        <div class="logo-featured">
+          <img src="img/logos/techcrunch.png" alt="techcrunch">
+          <img src="img/logos/business-insider.png" alt="business-insider">
+          <img src="img/logos/the-new-york-times.png" alt="the-new-york-times">
+          <img src="img/logos/forbes.png" alt="forbes">
+          <img src="img/logos/usa-today.png" alt="usa-today">
+        </div>
+      </div>
+    </section>
+    <section class="how" id="how">
+      <div class="container">
+        <span class="how-it-work">HOW IT WORK</span>
+        <h2 class="healthy-setp">Your daily dose of health in 3 simple setps</h2>
+      </div>
+      <div class="container grid-iphone grid--2-cols grid--center-v">
+        <div class="step1-text">
+          <div class="step1-number">01</div>
+          <div class="step1-heading">Tell us what you like (and what not)</div>
+          <div class="step1-decription">Never again waste time thinking about what to eat! Omnifood AI will create a
+            100% personalized weekly meal plan just for you. It makes sure you get all the nutrients and vitamins you
+            need, no matter what diet you follow!
+          </div>
+        </div>
+        <div class="step1-img ">
+
+          <img src="img/app/app-screen-1.png" class="step-img" alt="iPhone app
+            preferences selection screen">
+        </div>
+        <div class="step2-img">
+
+          <img src="img/app/app-screen-2.png" class="step-img" alt="iPhone app
+            preferences selection screen">
+        </div>
+        <div class="step2-text  ">
+
+          <div class="step2-number">02</div>
+          <div class="step2-heading">Approve your weekly meal plan</div>
+          <div class="step2-decription">Once per week, approve the meal plan generated for you by Omnifood AI. You can
+            change ingredients, swap entire meals, or even add your own recipes.</div>
+        </div>
+        <div class="step3-text">
+          <div class="step3-number">03</div>
+          <div class="step1-heading">Receive meals at convenient time</div>
+          <div class="step3-decription">Best chefs in town will cook your selected meal every day, and we will deliver
+            it to your door whenever works best for you. You can change delivery schedule and address daily</div>
+
+        </div>
+        <div class="step3-img">
+
+          <img src="img/app/app-screen-3.png" class="step-img" alt="iPhone app
+            preferences selection screen">
+        </div>
+      </div>
+    </section>
+    <section class="section-meal" id="meal">
+      <div class="container center-text">
+        <span class="section-meal-subheading">MEALS</span>
+        <h2 class="section-meal-mainheading">Omnifood AI chooses from 5,000+ recipes</h2>
+      </div>
+      <div class="container grid grid--3-cols margin-bottom-md">
+        <div class="meal">
+          <img src="img/meals/meal-image-1.jpg" class="meal-img" alt="Japanese Gyozas">
+          <div class="meal-content">
+            <div class="meal-tags">
+              <span class="tag tag--vegetarian">Vegetarian</span>
+            </div>
+            <p class="meal-title">Japanese Gyozas</p>
+            <ul class="meal-attributes">
+              <li class="meal-attribute">
+                <ion-icon class="meal-icon md hydrated" name="flame-outline" role="img" aria-label="flame outline">
+                  <div class="icon-inner">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="ionicon s-ion-icon" viewBox="0 0 512 512">
+                      <title>Flame</title>
+                      <path d="M112 320c0-93 124-165 96-272 66 0 192 96 192 272a144 144 0 01-288 0z"
+                        stroke-linecap="round" stroke-linejoin="round" class="ionicon-fill-none ionicon-stroke-width">
+                      </path>
+                      <path d="M320 368c0 57.71-32 80-64 80s-64-22.29-64-80 40-86 32-128c42 0 96 70.29 96 128z"
+                        stroke-linecap="round" stroke-linejoin="round" class="ionicon-fill-none ionicon-stroke-width">
+                      </path>
+                    </svg>
+                  </div>
+                </ion-icon>
+                <span><strong>650</strong> calories</span>
+              </li>
+              <li class="meal-attribute">
+                <ion-icon class="meal-icon md hydrated" name="restaurant-outline" role="img"
+                  aria-label="restaurant outline">
+                  <div class="icon-inner"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon s-ion-icon"
+                      viewBox="0 0 512 512">
+                      <title>Restaurant</title>
+                      <path
+                        d="M57.49 47.74l368.43 368.43a37.28 37.28 0 010 52.72h0a37.29 37.29 0 01-52.72 0l-90-91.55a32 32 0 01-9.2-22.43v-5.53a32 32 0 00-9.52-22.78l-11.62-10.73a32 32 0 00-29.8-7.44h0a48.53 48.53 0 01-46.56-12.63l-85.43-85.44C40.39 159.68 21.74 83.15 57.49 47.74z"
+                        stroke-linejoin="round" class="ionicon-fill-none ionicon-stroke-width"></path>
+                      <path
+                        d="M400 32l-77.25 77.25A64 64 0 00304 154.51v14.86a16 16 0 01-4.69 11.32L288 192M320 224l11.31-11.31a16 16 0 0111.32-4.69h14.86a64 64 0 0045.26-18.75L480 112M440 72l-80 80M200 368l-99.72 100.28a40 40 0 01-56.56 0h0a40 40 0 010-56.56L128 328"
+                        stroke-linecap="round" stroke-linejoin="round" class="ionicon-fill-none ionicon-stroke-width">
+                      </path>
+                    </svg></div>
+                </ion-icon>
+                <span>NutriScore &reg;<strong>74</strong></span>
+              </li>
+              <li class="meal-attribute">
+                <ion-icon class="meal-icon md hydrated" name="star-outline" role="img" aria-label="star outline">
+                  <div class="icon-inner"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon s-ion-icon"
+                      viewBox="0 0 512 512">
+                      <title>Star</title>
+                      <path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z"
+                        stroke-linejoin="round" class="ionicon-fill-none ionicon-stroke-width"></path>
+                    </svg></div>
+                </ion-icon>
+                <span><strong>4.9</strong> rating (537)</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="meal1">
+          <img src="img/meals/meal-image-2.jpg" class="meal-img" alt="Japanese Gyozas">
+          <div class="meal1-content">
+            <div class="meal1-tags">
+              <span class="tag tag--vegan">vegan</span>
+              <span class="tag tag--paleo">paleo</span>
+            </div>
+            <p class="meal-title">Avocado Salad</p>
+            <ul class="meal-attributes">
+              <li class="meal-attribute">
+                <ion-icon class="meal-icon md hydrated" name="flame-outline" role="img" aria-label="flame outline">
+                  <div class="icon-inner">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="ionicon s-ion-icon" viewBox="0 0 512 512">
+                      <title>Flame</title>
+                      <path d="M112 320c0-93 124-165 96-272 66 0 192 96 192 272a144 144 0 01-288 0z"
+                        stroke-linecap="round" stroke-linejoin="round" class="ionicon-fill-none ionicon-stroke-width">
+                      </path>
+                      <path d="M320 368c0 57.71-32 80-64 80s-64-22.29-64-80 40-86 32-128c42 0 96 70.29 96 128z"
+                        stroke-linecap="round" stroke-linejoin="round" class="ionicon-fill-none ionicon-stroke-width">
+                      </path>
+                    </svg>
+                  </div>
+                </ion-icon>
+                <span><strong>400</strong> calories</span>
+              </li>
+              <li class="meal-attribute">
+                <ion-icon class="meal-icon md hydrated" name="restaurant-outline" role="img"
+                  aria-label="restaurant outline">
+                  <div class="icon-inner"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon s-ion-icon"
+                      viewBox="0 0 512 512">
+                      <title>Restaurant</title>
+                      <path
+                        d="M57.49 47.74l368.43 368.43a37.28 37.28 0 010 52.72h0a37.29 37.29 0 01-52.72 0l-90-91.55a32 32 0 01-9.2-22.43v-5.53a32 32 0 00-9.52-22.78l-11.62-10.73a32 32 0 00-29.8-7.44h0a48.53 48.53 0 01-46.56-12.63l-85.43-85.44C40.39 159.68 21.74 83.15 57.49 47.74z"
+                        stroke-linejoin="round" class="ionicon-fill-none ionicon-stroke-width"></path>
+                      <path
+                        d="M400 32l-77.25 77.25A64 64 0 00304 154.51v14.86a16 16 0 01-4.69 11.32L288 192M320 224l11.31-11.31a16 16 0 0111.32-4.69h14.86a64 64 0 0045.26-18.75L480 112M440 72l-80 80M200 368l-99.72 100.28a40 40 0 01-56.56 0h0a40 40 0 010-56.56L128 328"
+                        stroke-linecap="round" stroke-linejoin="round" class="ionicon-fill-none ionicon-stroke-width">
+                      </path>
+                    </svg></div>
+                </ion-icon>
+                <span>NutriScore &reg; <strong>92</strong></span>
+              </li>
+              <li class="meal-attribute">
+                <ion-icon class="meal-icon md hydrated" name="star-outline" role="img" aria-label="star outline">
+                  <div class="icon-inner"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon s-ion-icon"
+                      viewBox="0 0 512 512">
+                      <title>Star</title>
+                      <path d="M480 208H308L256 48l-52 160H32l140 96-54 160 138-100 138 100-54-160z"
+                        stroke-linejoin="round" class="ionicon-fill-none ionicon-stroke-width"></path>
+                    </svg></div>
+                </ion-icon>
+                <span><strong>4.8</strong> rating (441)</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="diet">
+          <h3 class="heading-diet">Work with any diet:</h3>
+          <ul class="list">
+            <li class="list-item">
+              <ion-icon class="list-icon md hydrated" name="checkmark-outline" role="img"
+                aria-label="checkmark outline">
+                <div class="icon-inner"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon s-ion-icon"
+                    viewBox="0 0 512 512">
+                    <title>Checkmark</title>
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M416 128L192 384l-96-96"
+                      class="ionicon-fill-none ionicon-stroke-width"></path>
+                  </svg>
+                </div>
+              </ion-icon>
+              <span>Vegetarian</span>
+            </li>
+            <li class="list-item">
+              <ion-icon class="list-icon md hydrated" name="checkmark-outline" role="img"
+                aria-label="checkmark outline">
+                <div class="icon-inner"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon s-ion-icon"
+                    viewBox="0 0 512 512">
+                    <title>Checkmark</title>
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M416 128L192 384l-96-96"
+                      class="ionicon-fill-none ionicon-stroke-width"></path>
+                  </svg>
+                </div>
+              </ion-icon>
+              <span>Vegan</span>
+            </li>
+            <li class="list-item">
+              <ion-icon class="list-icon md hydrated" name="checkmark-outline" role="img"
+                aria-label="checkmark outline">
+                <div class="icon-inner"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon s-ion-icon"
+                    viewBox="0 0 512 512">
+                    <title>Checkmark</title>
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M416 128L192 384l-96-96"
+                      class="ionicon-fill-none ionicon-stroke-width"></path>
+                  </svg>
+                </div>
+              </ion-icon>
+              <span>Pescatarian</span>
+            </li>
+            <li class="list-item">
+              <ion-icon class="list-icon md hydrated" name="checkmark-outline" role="img"
+                aria-label="checkmark outline">
+                <div class="icon-inner"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon s-ion-icon"
+                    viewBox="0 0 512 512">
+                    <title>Checkmark</title>
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M416 128L192 384l-96-96"
+                      class="ionicon-fill-none ionicon-stroke-width"></path>
+                  </svg>
+                </div>
+              </ion-icon>
+              <span>Gulten-Free</span>
+            </li>
+            <li class="list-item">
+              <ion-icon class="list-icon md hydrated" name="checkmark-outline" role="img"
+                aria-label="checkmark outline">
+                <div class="icon-inner"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon s-ion-icon"
+                    viewBox="0 0 512 512">
+                    <title>Checkmark</title>
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M416 128L192 384l-96-96"
+                      class="ionicon-fill-none ionicon-stroke-width"></path>
+                  </svg>
+                </div>
+              </ion-icon>
+              <span>Lactose-free</span>
+            </li>
+            <li class="list-item">
+              <ion-icon class="list-icon md h ydrated" name="checkmark-outline" role="img"
+                aria-label="checkmark outline">
+                <div class="icon-inner"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon s-ion-icon"
+                    viewBox="0 0 512 512">
+                    <title>Checkmark</title>
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M416 128L192 384l-96-96"
+                      class="ionicon-fill-none ionicon-stroke-width"></path>
+                  </svg>
+                </div>
+              </ion-icon>
+              <span>keto</span>
+            </li>
+            <li class="list-item">
+              <ion-icon class="list-icon md hydrated" name="checkmark-outline" role="img"
+                aria-label="checkmark outline">
+                <div class="icon-inner"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon s-ion-icon"
+                    viewBox="0 0 512 512">
+                    <title>Checkmark</title>
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M416 128L192 384l-96-96"
+                      class="ionicon-fill-none ionicon-stroke-width"></path>
+                  </svg>
+                </div>
+              </ion-icon>
+              <span>paleo</span>
+            </li>
+            <li class="list-item">
+              <ion-icon class="list-icon md hydrated" name="checkmark-outline" role="img"
+                aria-label="checkmark outline">
+                <div class="icon-inner"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon s-ion-icon"
+                    viewBox="0 0 512 512">
+                    <title>Checkmark</title>
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M416 128L192 384l-96-96"
+                      class="ionicon-fill-none ionicon-stroke-width"></path>
+                  </svg>
+                </div>
+              </ion-icon>
+              <span>Kid-friendly</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container all-recipes">
+        <a href="#" class="link"> See all-recipes &rarr;</a>
+      </div>
+
+    </section>
+    <section class="section-testimonials" id="testimonial">
+      <div class="testimonials-container">
+        <span class="testimonial-heading">Testimonials</span>
+        <h2 class="testimonial-secondaryheading"> Once you try it, you can't go back</h2>
+        <div class="testimonials">
+          <div class="testimonial">
+            <img class="testimonial-img" alt="Photo of customer Dave Bryson" src="img/customers/profile-photo-1.jpg">
+            <div class="testimonial-text">
+              Inexpensive, healthy and great-tasting meals, without even
+              having to order manually! It feels truly magical.
+            </div>
+            <p class="testimonial-name">— Dave Bryson</p>
+          </div>
+          <div class="testimonial">
+            <img class="testimonial-img" alt="Photo of customer Ben Hadley" src="img/customers/profile-photo-2.jpg">
+            <div class="testimonial-text">
+              The AI algorithm is crazy good, it chooses the right meals for
+              me every time. It's amazing not to worry about food anymore!
+            </div>
+            <p class="testimonial-name">— Ben Hadley</p>
+          </div>
+          <div class="testimonial">
+            <img class="testimonial-img" alt="Photo of customer Ben Hadley" src="img/customers/profile-photo-3.jpg">
+            <div class="testimonial-text">
+              Omnifood is a life saver! I just started a company, so there's no time for cooking. I couldn't live
+              without my daily meals now!
+            </div>
+            <p class="testimonial-name">— stave miller </p>
+          </div>
+          <div class="testimonial">
+            <img class="testimonial-img" alt="Photo of customer Ben Hadley" src="img/customers/profile-photo-4.jpg">
+            <div class="testimonial-text">
+              I got Omnifood for the whole family, and it frees up so much time! Plus, everything is organic and vegan
+              and without plastic.
+            </div>
+            <p class="testimonial-name">— hannah smith </p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery">
+        <div class="gallery-item"><img src="img/gallery/gallery-1.jpg" alt="photo of food"></div>
+        <div class="gallery-item"><img src="img/gallery/gallery-2.jpg" alt="photo of food"></div>
+        <div class="gallery-item"><img src="img/gallery/gallery-3.jpg" alt="photo of food"></div>
+        <div class="gallery-item"><img src="img/gallery/gallery-4.jpg" alt="photo of food"></div>
+        <div class="gallery-item"><img src="img/gallery/gallery-5.jpg" alt="photo of food"></div>
+        <div class="gallery-item"><img src="img/gallery/gallery-6.jpg" alt="photo of food"></div>
+        <div class="gallery-item"><img src="img/gallery/gallery-7.jpg" alt="photo of food"></div>
+        <div class="gallery-item"><img src="img/gallery/gallery-8.jpg" alt="photo of food"></div>
+        <div class="gallery-item"><img src="img/gallery/gallery-9.jpg" alt="photo of food"></div>
+        <div class="gallery-item"><img src="img/gallery/gallery-10.jpg" alt="photo of food"></div>
+        <div class="gallery-item"><img src="img/gallery/gallery-11.jpg" alt="photo of food"></div>
+        <div class="gallery-item"><img src="img/gallery/gallery-12.jpg" alt="photo of food"></div>
+      </div>
+    </section>
+    <section class="price" id="price">
+      <div class="container">
+        <span class="heading-price">PRICING</span>
+        <h2 class="heading-text">Eating well without breaking the bank</h2>
+      </div>
+      <div class="container-price grid grid--2-cols ">
+        <div class="pricing-plan pricing-plan--starter">
+          <header class="plan-starter">
+            <p class="plan-name">Starter</p>
+
+            <p class="plan-price">
+              <span>$</span>
+              399
+            </p>
+            <p class="plan-text">per month. That's just $13 per meal!</p>
+          </header>
+          <ul class="list-1">
+            <li class="list-item-1">
+              <ion-icon class="list-icon md hydrated" name="checkmark-outline" role="img"
+                aria-label="checkmark outline"></ion-icon>
+              <span>1 meal per day</span>
+            </li>
+            <li class="list-item-1">
+              <ion-icon class="list-icon md hydrated" name="checkmark-outline" role="img"
+                aria-label="checkmark outline"></ion-icon>
+              <span>Order from 11am to 9pm</span>
+            </li>
+            <li class="list-item-1">
+              <ion-icon class="list-icon md hydrated" name="checkmark-outline" role="img"
+                aria-label="checkmark outline"></ion-icon>
+              <span>Delivery is free</span>
+            </li>
+            <li class="list-item-1">
+              <ion-icon class="list-icon md hydrated" name="close-outline" role="img"
+                aria-label="close outline"></ion-icon>
+            </li>
+          </ul>
+          <div class="price-sing-up">
+            <a href="#" class="btn btn-start-eating margin-right-sm price-eating-well">Start eating well</a>
+
+          </div>
+
+        </div>
+        <div class="pricing-plan pricing-plan-complete pricing-plan--complete-1">
+          <header class="plan-starter-complete">
+            <div class="best">
+            </div>
+            <p class="plan-name">complete</p>
+
+            <p class="plan-price">
+              <span>$</span>
+              649
+            </p>
+            <p class="plan-text">per month. That's just $11 per meal!</p>
+          </header>
+          <ul class="list-1">
+            <li class="list-item-1">
+              <ion-icon class="list-icon md hydrated" name="checkmark-outline" role="img"
+                aria-label="checkmark outline"></ion-icon>
+              <span><strong> 2 meal </strong>per day</span>
+            </li>
+            <li class="list-item-1">
+              <ion-icon class="list-icon md hydrated" name="checkmark-outline" role="img"
+                aria-label="checkmark outline"></ion-icon>
+              <span>Order <strong>24/7</strong> </span>
+            </li>
+            <li class="list-item-1">
+              <ion-icon class="list-icon md hydrated" name="checkmark-outline" role="img"
+                aria-label="checkmark outline"></ion-icon>
+              <span>Delivery is free</span>
+            </li>
+            <li class="list-item-1">
+              <ion-icon class="list-icon md hydrated" name="checkmark-outline" role="img"
+                aria-label="checkmark outline"></ion-icon>
+              <span>Get access to latest recipes</span>
+            </li>
+          </ul>
+          <div class="price-sing-up">
+            <a href="#" class="btn btn-start-eating margin-right-sm price-eating-well">Start eating well</a>
+          </div>
+        </div>
+      </div>
+      <div class="container grid-info">
+        <div class="plan-details">
+          Prices include all applicable taxes. You can cancel at any time.
+          Both plans include the following:
+        </div>
+      </div>
+      <div class="container grid grid--4-cols">
+        <div class="feature">
+          <ion-icon class="feature-icon md hydrated" name="infinite-outline" role="img"
+            aria-label="infinite outline"></ion-icon>
+          <p class="feature-title">Never cook again!</p>
+          <p class="feature-text">
+            Our subscriptions cover 365 days per year, even including major
+            holidays.
+          </p>
+        </div>
+        <div class="feature">
+          <ion-icon class="feature-icon md hydrated" name="nutrition-outline" role="img"
+            aria-label="nutrition outline"></ion-icon>
+          <p class="feature-title">Local and organic</p>
+          <p class="feature-text">
+            Our cooks only use local, fresh, and organic products to prepare
+            your meals.
+          </p>
+        </div>
+        <div class="feature">
+          <ion-icon class="feature-icon md hydrated" name="leaf-outline" role="img"
+            aria-label="leaf outline"></ion-icon>
+          <p class="feature-title">No waste</p>
+          <p class="feature-text">
+            All our partners only use reusable containers to package all your
+            meals.
+          </p>
+        </div>
+        <div class="feature">
+          <ion-icon class="feature-icon md hydrated" name="pause-outline" role="img"
+            aria-label="pause outline"></ion-icon>
+          <p class="feature-title">Pause anytime</p>
+          <p class="feature-text">
+            Going on vacation? Just pause your subscription, and we refund
+            unused days.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section-try-for-free" id="try-for-free">
+      <div class="container">
+        <div class="try">
+          <div class="try-text-box">
+            <h2 class="heading-secondary">Get your first meal for free!</h2>
+            <p class="try-text">
+              Healthy, tasty and hassle-free meals are waiting for you. Start
+              eating well today. You can cancel or pause anytime. And the
+              first meal is on us!
+            </p>
+
+            <form class="try-form" name="sign-up">
+              <div>
+                <label id="input-text">Full Name</label>
+                <input id="input-text-place" type="text" placeholder="John Smith" name="full-name" required="">
+              </div>
+
+              <div>
+                <label id="input-text">Email address</label>
+                <input id="input-text-place" type="email" placeholder="me@example.com" name="email" required="">
+              </div>
+
+              <div>
+                <label id="input-text">Where did you hear from us?</label>
+                <select id="input-text-place" name="select-where" required="">
+                  <option value="">Please choose one option:</option>
+                  <option value="friends">Friends and family</option>
+                  <option value="youtube">YouTube video</option>
+                  <option value="podcast">Podcast</option>
+                  <option value="ad">Facebook ad</option>
+                  <option value="others">Others</option>
+                </select>
+              </div>
+
+              <button class="btn btn--sign-in">Sign up now</button>
+            </form>
+          </div>
+          <div class="try-img-box" alt="Woman enjoying food"> </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container-footer grid grid--footer">
+      <div class="logo-footer">
+        <a href="#" class="footer-logo">
+          <img class="logo" alt="Omnifood logo" src="img/omnifood-logo.png">
+        </a>
+        <ul class="social-links">
+          <li>
+            <a class="footer-link" href="#"><i class="fab fa-instagram" style="font-size: 24px;"></i>
+            </a>
+          </li>
+          <li>
+            <a class="footer-link" href="#">
+              <i class='fab fa-facebook' style='font-size:21px'></i>
+            </a>
+          </li>
+          <li>
+            <a class="footer-link" href="#"><i class="fab fa-twitter" style="font-size: 21px;"></i></a>
+          </li>
+        </ul>
+        <p class="copyright">
+          Copyright &copy;
+          <span class="year">2024</span>
+          by Omnifood, Inc.All rights reserved.
+        </p>
+      </div>
+
+      <div class="address-col">
+        <p class="footer-heading">Contact us</p>
+        <address class="contacts">
+          <p class="address">
+            623 Harrison St., 2nd Floor, San Francisco, CA 94107
+          </p>
+          <p class="mob">
+            <a class="footer-link" href="tel:415-201-6370">415-201-6370</a><br>
+            <a class="footer-link" href="mailto:hello@omnifood.com">hello@omnifood.com</a>
+          </p>
+        </address>
+      </div>
+
+      <nav class="footer-nav">
+        <p class="footer-account">Account</p>
+        <ul class="footer-nav1">
+          <li><a href="#" class="footer-list">Create account</a></li>
+          <li><a href="#" class="footer-list">Sign in</a></li>
+          <li><a href="#" class="footer-list">IOS app</a></li>
+          <li><a href="#" class="footer-list">Andriod app</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-nav">
+        <p class="footer-Company">Company</p>
+        <ul class="footer-nav1">
+          <li><a href="#" class="footer-list">About Omnifood</a></li>
+          <li><a href="#" class="footer-list">For Business</a></li>
+          <li><a href="#" class="footer-list">Cooking partners</a></li>
+          <li><a href="#" class="footer-list">Careers</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-nav">
+        <p class="footer-resources">Resources</p>
+        <ul class="footer-nav1">
+          <li><a href="#" class="footer-list">Recipe directory</a></li>
+          <li><a href="#" class="footer-list">Help center</a></li>
+          <li><a href="#" class="footer-list">Privacy & terms</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script>
+
+    // const header = document.querySelector('#header-nav');
+    // const sticky = header.offsetTop;
+    // window.addEventListener('scroll',
+    //   function () {
+    //     if (window.pageYOffset > 630) {
+    //       header.classList.add('sticky');
+    //     } else {
+    //       header.classList.remove('sticky');
+    //     }
+    //   }
+    // )
+    // </script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
