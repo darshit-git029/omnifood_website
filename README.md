@@ -6,7 +6,7 @@ This Omnifood web is single web page for startup. It's design to deliver custom 
 
 ### Links
 
-- Live Site URL: 
+- Live Site URL: https://darshit-git029.github.io/omnifood_website/
 
 ## Table of contents
   - [Overview](#overview)
